@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "title": "This is My 1-st Blog!",
+      "body": "Hello everyone! My name is Inkar. i live in Almaty , but i was born in Kyzyorda. i live in Almaty since 2016 , because I studied at the age of 17 at the KazNMU university",
+      "author": "Inkar Zholdybay",
+      "id": 1
+    }
+  ]
+}

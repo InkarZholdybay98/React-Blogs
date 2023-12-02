@@ -11,12 +11,12 @@ export default function BlogDetails() {
     data: blog,
     isLoading,
     error,
-  } = useFetch(`http://localhost:3000/blogs/${id}`);
+  } = useFetch(`http://localhost:8000/blogs/${id}`);
 
   function deleteFn(e) {
     e.preventDefault();
 
-    fetch(`http://localhost:3000/blogs/${id}`, {
+    fetch(`http://localhost:8000/blogs/${id}`, {
       method: "DELETE",
     }).then(() => {
       history.push("/");

@@ -7,7 +7,7 @@ export default function Home() {
     data: blogs,
     error,
     isLoading,
-  } = useFetch("http://localhost:3000/blogs");
+  } = useFetch("http://localhost:8000/blogs");
 
   return (
     <div className="blogs">
